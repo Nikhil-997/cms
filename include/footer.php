@@ -2,8 +2,8 @@
             <div class="row">
                 <div class="col-lg-12">
                 <p>Nikhil Plavazhi</p>
-                <p>plavazhin@gmail.com</p>
-                <p>7892212461</p>
+                <p>Mail ID ::plavazhin@gmail.com</p>
+                <p>Contact ::7892212461</p>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
