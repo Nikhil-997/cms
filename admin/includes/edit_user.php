@@ -111,10 +111,10 @@ else
 <input type="email"value = "<?php echo $user_email ?>"class="form-control"name="user_email">
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
 <label for="post_tags">Password</label>
 <input type="password" value = "<?php echo $user_password?>"class="form-control"name="user_password">
-</div>
+</div> -->
 
 <div class="form-group">
 <input class="btn btn-primary"  type="submit" name="edit_user" value="Update_User">

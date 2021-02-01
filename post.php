@@ -16,7 +16,10 @@
                 {
                         $the_post_id = $_GET['p_id'];
 
-                }
+                
+                $view_query =  "UPDATE posts SET post_views_counts = post_views_counts + 1 ";
+                $view_query .= "WHERE post_id= $the_post_id ";
+                $send_query = mysqli_query($connection,$view_query);
 
                 $query = "SELECT * FROM posts WHERE post_id = $the_post_id ";
                 $select_all_categories_post = mysqli_query($connection,$query);
@@ -50,7 +53,15 @@
               
 
                 <hr>
-               <?php } ?>
+               <?php }
+               
+                }else{
+                    header("Location: index.php"); 
+                }
+               
+               
+               
+               ?>
 
 
                
