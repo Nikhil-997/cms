@@ -24,7 +24,7 @@ if(isset($_POST['checkBoxArray']))
 
                 confirm($update_to_draft_status);
         break;
-  
+          
         case 'delete':
 
             $query = "DELETE  FROM posts  WHERE post_id= '{$postValueId}' ";
@@ -152,8 +152,7 @@ if(isset($_POST['checkBoxArray']))
 
                                   
                                     }
-                                    echo "<td>{$cat_title}</td>";
-
+                                   echo "<td>{$cat_title}</td>";
                                   echo "<td>{$post_status}</td>";
                                   echo "<td><img width=100 src='../images/$post_image' alt='image'></td>";
                                   echo "<td>{$post_tags}</td>";
@@ -165,12 +164,8 @@ if(isset($_POST['checkBoxArray']))
                                   echo "<td><a href ='posts.php?delete={$post_id}'>Delete</a></td>";
                                   
                                   echo "</tr>";
-                                
-
 
                                   }
-
-                                  
 
                             ?>
                             </tbody>
